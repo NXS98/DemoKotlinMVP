@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/d20"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.RegisterActivity">
+    <EditText
+        android:id="@+id/edt_registere_username"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/my_edit_text_border"
+        android:hint="Username"
+        android:paddingLeft="@dimen/d20" />
+
+    <EditText
+        android:id="@+id/edt_registere_password"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="@dimen/d30"
+        android:background="@drawable/my_edit_text_border"
+        android:hint="Password"
+        android:paddingLeft="@dimen/d20" />
+    <Button
+        android:id="@+id/btn_registere_finish"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="@dimen/d50"
+        android:background="@color/colorPrimary"
+        android:text="@string/finish"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>

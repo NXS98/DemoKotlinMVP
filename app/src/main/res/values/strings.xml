@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoMVP</string>
+    <string name="login">Login</string>
+    <string name="category">CATEGORY</string>
+    <string name="registere">registere</string>
+    <string name="finish">Finish</string>
+</resources>

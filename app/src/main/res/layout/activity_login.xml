@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".view.activity.LoginActivity">
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/my_edit_text_border"
+        android:hint="Username"
+        android:paddingLeft="@dimen/d20" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="@dimen/d30"
+        android:background="@drawable/my_edit_text_border"
+        android:hint="Password"
+        android:paddingLeft="@dimen/d20" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="@dimen/d50"
+        android:background="@color/colorPrimary"
+        android:text="@string/login"
+        android:textColor="@color/colorWhite" />
+    <Button
+        android:id="@+id/btn_registere"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="@dimen/d20"
+        android:background="@color/colorPrimary"
+        android:text="@string/registere"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>

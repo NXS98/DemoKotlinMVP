@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="@dimen/d20"
+    android:background="#E6E6E6"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.StoreActivity">
+    <TextView
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/s30"
+        android:gravity="center"
+        android:text="@string/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_category"
+        android:layout_marginTop="@dimen/d30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
